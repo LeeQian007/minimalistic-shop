@@ -1,9 +1,3 @@
 # Ecommerce Project
-this is an old ecommerce project i made a month ago. it is my first react project. and all the resourses from https://github.com/Abderraouf-Rahmani/ecommerce  :)
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Visit Now](https://7571adad.gym-web-1bm.pages.dev/) 🚀
+this is an old ecommerce project i made a month ago. it is my first react project. and all the resourses from Abderraouf-Rahmani  :)
