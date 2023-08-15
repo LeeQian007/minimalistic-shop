@@ -1,4 +1,5 @@
-# React + Vite
+# Ecommerce Project
+this is an old ecommerce project i made a month ago. it is my first react project. and all the resourses from https://github.com/Abderraouf-Rahmani/ecommerce  :)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
