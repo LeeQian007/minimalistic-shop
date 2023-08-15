@@ -1,0 +1,42 @@
+.empty-cart {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  margin: 8rem auto;
+}
+
+.empty-cart p {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.empty-cart button {
+  font-size: 1.6rem;
+
+  margin-top: 2rem;
+  color: white;
+  font-size: 2rem;
+  background-color: rgb(129, 129, 129);
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  cursor: pointer;
+  line-height: 3.5rem;
+  padding: 1rem 1rem;
+  transition: all 0.3s ease-in;
+}
+
+.empty-cart button:hover {
+  background-color: rgb(86, 86, 86);
+}
+
+.title-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-box .close {
+  cursor: pointer;
+}

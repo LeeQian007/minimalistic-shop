@@ -1,0 +1,36 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.products {
+  outline: 2px solid rgba(0, 0, 0, 0.205);
+  outline-offset: -2px;
+  transition: all 0.15s ease-in;
+}
+
+.products img {
+  width: 100%;
+  text-decoration: none;
+  /* a span 是纯 inline */
+  /* img / input / td 他们之间会有空白缝隙, 可以设置 w和h， 是fake inline */
+  /* display: block; */
+  vertical-align: bottom;
+  background-color: white;
+}
+
+.products:hover {
+  outline: 2px solid rgba(0, 0, 0, 0.7);
+}
+
+.products .product-descrip {
+  font-size: 1.4rem;
+  padding: 1rem;
+  height: auto;
+}
+
+.products .product-descrip .item-price {
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}

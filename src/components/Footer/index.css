@@ -1,0 +1,28 @@
+.footer-container {
+  height: 20rem;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container .all-text {
+  color: white;
+}
+
+.footer-container .all-text .footer-links {
+  display: flex;
+  gap: 3rem;
+}
+
+.footer-container a {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.footer-container .all-text .designer {
+  font-size: 1.7rem;
+  margin-top: 2.2rem;
+  text-align: center;
+  word-spacing: 0.6rem;
+}

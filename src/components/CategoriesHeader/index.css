@@ -1,0 +1,44 @@
+.category-all-container {
+  padding-top: 16rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.category-all-container .title-home {
+  display: flex;
+
+  align-items: center;
+}
+
+.category-all-container h2 {
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.category-all-container a {
+  font-size: 1.6rem;
+}
+
+.category-all-container .filter-btn {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+  margin-bottom: 6rem;
+}
+
+.category-all-container .filter-btn button {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  background-color: #ffffff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(162, 168, 168, 0.5) 0 2px 5px 0;
+  cursor: pointer;
+  line-height: 3.5rem;
+  padding: 0 2rem;
+}

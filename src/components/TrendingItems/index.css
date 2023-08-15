@@ -1,0 +1,31 @@
+.sing-item {
+  /* outline 是来调整粗细 */
+  outline: 2px solid rgba(0, 0, 0, 0.205);
+  /* 这个outline-offset 是来调整 大小范围 */
+  outline-offset: -2px;
+  transition: all 0.3s ease-in;
+}
+
+.sing-item:hover {
+  outline: 2px solid rgba(0, 0, 0, 0.7);
+}
+
+.sing-item img {
+  width: 21rem;
+  vertical-align: bottom;
+  background-color: #fff;
+}
+
+.sing-item .title-price {
+  margin: 1rem 1rem;
+}
+
+.sing-item .title-price .title {
+  font-size: 1.4rem;
+}
+
+.sing-item .title-price .price {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-top: 0.8rem;
+}

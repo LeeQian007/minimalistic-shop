@@ -1,0 +1,33 @@
+.news-letter-container {
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #191919;
+  height: 28rem;
+}
+
+.news-letter-container h2 {
+  color: white;
+  font-size: 3.6rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.news-letter-container input {
+  border: none;
+  outline: none;
+  font-size: 1.6rem;
+  padding: 0.6rem;
+  border-radius: 4px;
+  margin-right: 1rem;
+}
+
+.news-letter-container button {
+  font-size: 1.6rem;
+  padding: 0.4rem;
+  border-radius: 4px;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}

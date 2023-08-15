@@ -1,0 +1,61 @@
+.banner-container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  height: 40rem;
+}
+
+/* .banner-container .title { */
+/* display: flex; */
+/* justify-content: center; */
+/* align-items: center; */
+/* } */
+
+.banner-container .banner-left {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  padding-left: 12rem;
+  padding-right: 12rem;
+  background-color: #e9e9e9;
+}
+
+.banner-container .banner-left h2 {
+  font-size: 3rem;
+}
+
+.banner-container .banner-left p {
+  font-size: 1.6rem;
+  margin-top: 1.6rem;
+}
+
+.banner-container .img {
+  width: 50%;
+}
+
+.banner-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner-container button {
+  margin-top: 2rem;
+  color: white;
+  font-size: 1.5rem;
+  background-color: rgb(129, 129, 129);
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  cursor: pointer;
+  line-height: 3.5rem;
+  padding: 0 1rem;
+  transition: all 0.3s ease-in;
+}
+
+.banner-container button:hover {
+  background-color: rgb(86, 86, 86);
+}

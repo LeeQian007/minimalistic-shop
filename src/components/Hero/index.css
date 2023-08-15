@@ -1,0 +1,64 @@
+.grid-container {
+  display: grid;
+  height: 60rem;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "one two three"
+    "one two four";
+  padding-top: 14rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  gap: 1.2rem;
+}
+
+.featured {
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+.grid-one {
+  /* !!!! 不要加引号 */
+  grid-area: one;
+}
+
+.grid-two {
+  grid-area: two;
+}
+
+.grid-three {
+  grid-area: three;
+}
+
+.grid-four {
+  grid-area: four;
+}
+
+.featured img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.featured .img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in;
+}
+
+.featured p {
+  position: absolute;
+  bottom: 0%;
+  left: 2%;
+  font-size: 4rem;
+  color: white;
+}
+
+.img:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}

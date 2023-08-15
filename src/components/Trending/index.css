@@ -1,0 +1,49 @@
+.Trending-now-container {
+  padding: 0 2rem;
+  margin-top: 5rem;
+}
+
+.Trending-now-container h2 {
+  font-size: 4rem;
+}
+
+.Trending-now-container .title-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Trending-now-container .btns {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.Trending-now-container button {
+  background-color: rgb(30, 30, 30);
+  padding: 0.8rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.Trending-now-container button:hover {
+  background-color: rgb(66, 66, 66);
+}
+
+.Trending-now-container .btns i {
+  font-size: 2rem;
+  color: white;
+}
+
+.Trending-slides {
+  display: flex;
+  gap: 2.7rem;
+  margin-top: 1.4rem;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.Trending-slides::-webkit-scrollbar {
+  display: none;
+}
